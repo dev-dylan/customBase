@@ -6,7 +6,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#if __has_include(<WeexSDK.h>)
+#import <weexHeader/WeexSDK.h>
+#else
 #import "WeexSDK.h"
+#endif
 
 NS_ASSUME_NONNULL_BEGIN
 
