@@ -436,20 +436,35 @@
 	<array>
 		<dict>
 			<key>hooksClass</key>
-			<string>MDAnalyticsProxy</string>
+			<string>UniSensorsAnalyticsProxy</string>
 			<key>plugins</key>
 			<array>
 				<dict>
 					<key>class</key>
-					<string>MDAnalyticsModule</string>
+					<string>UniSensorsAnalyticsModule</string>
 					<key>name</key>
-					<string>MDData-MDAnalyticsModule</string>
+					<string>Sensorsdata-UniPlugin-App</string>
 					<key>type</key>
 					<string>module</string>
 				</dict>
 			</array>
 		</dict>
 	</array>
+	<key>Sensorsdata-UniPlugin-App</key>
+	<dict>
+		<key>enableJavaScriptBridge</key>
+		<string>true</string>
+		<key>enableLog</key>
+		<string>true</string>
+		<key>autoTrackEventType</key>
+		<string>true</string>
+		<key>maxCacheSize</key>
+		<string>123456</string>
+		<key>serverUrl</key>
+		<string>http://newsdktest.datasink.sensorsdata.cn/sa?project=pengyuanyang&amp;token=5a394d2405c147ca</string>
+		<key>enableEncrypt</key>
+		<string>false</string>
+	</dict>
 	<key>weixinoauth</key>
 	<dict>
 		<key>appSecret</key>
