@@ -457,13 +457,11 @@
 		<key>enableLog</key>
 		<string>true</string>
 		<key>autoTrackEventType</key>
-		<string>true</string>
+		<string>3</string>
 		<key>maxCacheSize</key>
 		<string>123456</string>
-		<key>serverUrl</key>
-		<string>http://newsdktest.datasink.sensorsdata.cn/sa?project=pengyuanyang&amp;token=5a394d2405c147ca</string>
 		<key>enableEncrypt</key>
-		<string>false</string>
+		<string>true</string>
 	</dict>
 	<key>weixinoauth</key>
 	<dict>

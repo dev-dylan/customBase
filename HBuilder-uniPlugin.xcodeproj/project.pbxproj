@@ -179,8 +179,6 @@
 		8EED65A8198A6273000A4449 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EED65A7198A6273000A4449 /* OpenGLES.framework */; };
 		97D33A5D24750907004DDFB5 /* liblibPDRCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 247F85DA1FA32B2C006ECAC6 /* liblibPDRCore.a */; };
 		97D33A5E24750907004DDFB5 /* liblibWeex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDE1569215F468000588710 /* liblibWeex.a */; };
-		FC10759025B28F9A00177905 /* UniSensorsAnalyticsModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC10758225B28F7600177905 /* UniSensorsAnalyticsModule.framework */; };
-		FC10759125B28F9A00177905 /* UniSensorsAnalyticsModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FC10758225B28F7600177905 /* UniSensorsAnalyticsModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FC692F3725B18AC20010296F /* SensorsAnalyticsSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC692F3525B18AC20010296F /* SensorsAnalyticsSDK.framework */; };
 		FC81B22C25B05F88000655B1 /* TYRZResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC81B20E25B05F87000655B1 /* TYRZResource.bundle */; };
 		FC81B22D25B05F88000655B1 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC81B20F25B05F87000655B1 /* mapapi.bundle */; };
@@ -206,37 +204,6 @@
 		FC81B24E25B06158000655B1 /* temp_license_2018-02-24.dat in Resources */ = {isa = PBXBuildFile; fileRef = 67B7CACB21DE1F150083E96A /* temp_license_2018-02-24.dat */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		FC10758125B28F7600177905 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FC10757D25B28F7600177905 /* UniSensorsAnalyticsModule.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FC692F0C25B180CA0010296F;
-			remoteInfo = UniSensorsAnalyticsModule;
-		};
-		FC10758A25B28F8C00177905 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FC10758425B28F8C00177905 /* SensorsAnalyticsSDK.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CB30BD5422840CA40004061D;
-			remoteInfo = SensorsAnalyticsSDK;
-		};
-		FC10758C25B28F8C00177905 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FC10758425B28F8C00177905 /* SensorsAnalyticsSDK.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CB30C30F22843D3A0004061D;
-			remoteInfo = SensorsAnalyticsExtension;
-		};
-		FC10758E25B28F8C00177905 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FC10758425B28F8C00177905 /* SensorsAnalyticsSDK.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CB6EBAE3228551EC003CFBA8;
-			remoteInfo = SensorsAnalyticsTests;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		FC692F7725B18EBE0010296F /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -244,7 +211,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FC10759125B28F9A00177905 /* UniSensorsAnalyticsModule.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,8 +401,6 @@
 		8EED659F198A5789000A4449 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		8EED65A5198A626B000A4449 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		8EED65A7198A6273000A4449 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		FC10757D25B28F7600177905 /* UniSensorsAnalyticsModule.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UniSensorsAnalyticsModule.xcodeproj; path = "../../GitLab/uni-app-sdk/ios/UniSensorsAnalyticsModule.xcodeproj"; sourceTree = "<group>"; };
-		FC10758425B28F8C00177905 /* SensorsAnalyticsSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SensorsAnalyticsSDK.xcodeproj; path = "../../GitLab/sa-sdk-ios/SensorsAnalyticsSDK.xcodeproj"; sourceTree = "<group>"; };
 		FC49C59725B01FF400DE3AF9 /* PDRCoreAppWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDRCoreAppWindow.h; sourceTree = "<group>"; };
 		FC49C59825B01FF400DE3AF9 /* PDRNView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDRNView.h; sourceTree = "<group>"; };
 		FC49C59925B01FF400DE3AF9 /* PDRCommonString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDRCommonString.h; sourceTree = "<group>"; };
@@ -894,6 +858,8 @@
 		FC81B22925B05F88000655B1 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		FC81B22A25B05F88000655B1 /* weex-polyfill.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "weex-polyfill.js"; sourceTree = "<group>"; };
 		FC81B22B25B05F88000655B1 /* weexUniJs.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = weexUniJs.js; sourceTree = "<group>"; };
+		FCEAE2FB25BA7F4200613979 /* UniPluginApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniPluginApp.framework; path = "Sensorsdata-UniPlugin-App/ios/UniPluginApp.framework"; sourceTree = "<group>"; };
+		FCEAE2FC25BA7F4200613979 /* SensorsAnalyticsSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SensorsAnalyticsSDK.framework; path = "Sensorsdata-UniPlugin-App/ios/SensorsAnalyticsSDK.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1005,7 +971,6 @@
 				24AFD8011CB50C3200C0F062 /* iflyMSC.framework in Frameworks */,
 				24AFD8021CB50C3200C0F062 /* TencentOpenAPI.framework in Frameworks */,
 				24BD5AF21C994A1700B05AA2 /* libicucore.tbd in Frameworks */,
-				FC10759025B28F9A00177905 /* UniSensorsAnalyticsModule.framework in Frameworks */,
 				24BD5AF01C99494A00B05AA2 /* libz.tbd in Frameworks */,
 				24BD5AEE1C99494200B05AA2 /* libxml2.tbd in Frameworks */,
 				67D6390A21C12945005D1E8F /* libbaiduSpeech.a in Frameworks */,
@@ -1055,8 +1020,6 @@
 		8EED628F198A1D13000A4449 = {
 			isa = PBXGroup;
 			children = (
-				FC10758425B28F8C00177905 /* SensorsAnalyticsSDK.xcodeproj */,
-				FC10757D25B28F7600177905 /* UniSensorsAnalyticsModule.xcodeproj */,
 				8EED62A1198A1D13000A4449 /* HBuilder-Hello */,
 				8EED629A198A1D13000A4449 /* Frameworks */,
 				8EED6299198A1D13000A4449 /* Products */,
@@ -1075,6 +1038,8 @@
 			isa = PBXGroup;
 			children = (
 				FC692F3525B18AC20010296F /* SensorsAnalyticsSDK.framework */,
+				FCEAE2FC25BA7F4200613979 /* SensorsAnalyticsSDK.framework */,
+				FCEAE2FB25BA7F4200613979 /* UniPluginApp.framework */,
 				FC692F3625B18AC20010296F /* UniSensorsAnalyticsModule.framework */,
 				4FE36669254FE5FB00DCD173 /* libuchardet.a */,
 				6731F3A9232F5B97007838BC /* Photos.framework */,
@@ -1276,24 +1241,6 @@
 				67065F2F2243868400DC71CA /* Default@2x.png */,
 			);
 			path = splash;
-			sourceTree = "<group>";
-		};
-		FC10757E25B28F7600177905 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FC10758225B28F7600177905 /* UniSensorsAnalyticsModule.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FC10758525B28F8C00177905 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FC10758B25B28F8C00177905 /* SensorsAnalyticsSDK.framework */,
-				FC10758D25B28F8C00177905 /* SensorsAnalyticsExtension.framework */,
-				FC10758F25B28F8C00177905 /* SensorsAnalyticsTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		FC49C59625B01FF400DE3AF9 /* inc */ = {
@@ -2168,53 +2115,12 @@
 			mainGroup = 8EED628F198A1D13000A4449;
 			productRefGroup = 8EED6299198A1D13000A4449 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = FC10758525B28F8C00177905 /* Products */;
-					ProjectRef = FC10758425B28F8C00177905 /* SensorsAnalyticsSDK.xcodeproj */;
-				},
-				{
-					ProductGroup = FC10757E25B28F7600177905 /* Products */;
-					ProjectRef = FC10757D25B28F7600177905 /* UniSensorsAnalyticsModule.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				8EED6297198A1D13000A4449 /* HBuilder */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		FC10758225B28F7600177905 /* UniSensorsAnalyticsModule.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = UniSensorsAnalyticsModule.framework;
-			remoteRef = FC10758125B28F7600177905 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FC10758B25B28F8C00177905 /* SensorsAnalyticsSDK.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SensorsAnalyticsSDK.framework;
-			remoteRef = FC10758A25B28F8C00177905 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FC10758D25B28F8C00177905 /* SensorsAnalyticsExtension.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SensorsAnalyticsExtension.framework;
-			remoteRef = FC10758C25B28F8C00177905 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FC10758F25B28F8C00177905 /* SensorsAnalyticsTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SensorsAnalyticsTests.xctest;
-			remoteRef = FC10758E25B28F8C00177905 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8EED6296198A1D13000A4449 /* Resources */ = {
@@ -2415,6 +2321,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(PROJECT_DIR)/SDK/libs",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Sensorsdata-UniPlugin-App/ios",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HBuilder-Hello/HBuilder-uniPlugin-Prefix.pch";
@@ -2464,6 +2371,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(PROJECT_DIR)/SDK/libs",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Sensorsdata-UniPlugin-App/ios",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HBuilder-Hello/HBuilder-uniPlugin-Prefix.pch";
