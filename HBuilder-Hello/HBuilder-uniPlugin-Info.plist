@@ -461,7 +461,7 @@
 		<key>maxCacheSize</key>
 		<string>123456</string>
 		<key>enableEncrypt</key>
-		<string>true</string>
+		<string>false</string>
 	</dict>
 	<key>weixinoauth</key>
 	<dict>
